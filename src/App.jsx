@@ -20,3 +20,8 @@ export default function App() {
     </>
   )
 }
+
+// Backlog of edits:
+// - preapre mobile view
+// - change order of displayed entiries to show the most recent one first
+// - customize entries

@@ -72,3 +72,38 @@ footer{
   text-align: center;
   padding: 1em;
 }
+
+.scrimba-link{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: .3em;
+  font-size: 1.2em;
+}
+
+footer > a{
+  transition: ease-in-out .2s;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-block: .7em;
+}
+
+.links svg{
+  width: 2em;
+  height: 2em;
+}
+
+.links > a{
+  color: white;
+  transition: ease-in-out .2s;
+}
+
+.links a:hover,
+.links a:focus{
+  transform: scale(1.2);
+  transition: ease-in-out .2s;
+}
