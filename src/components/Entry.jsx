@@ -13,6 +13,9 @@ export default function Entry(props) {
                 <a href={props.googleMapsLink} target="_blank" rel="noopener noreferrer">
                     View on Google Maps
                 </a>
+                <h2>{props.title}</h2>
+                <p className="dates">{props.dates}</p>
+                <p className="description">{props.text}</p>
             </div>
          </div>
     )

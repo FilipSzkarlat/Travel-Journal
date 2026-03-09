@@ -1,3 +1,4 @@
+/* Global Styles */
 *{
   margin:0;
   padding:0;
@@ -5,6 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* Navigation */
 nav{
   display: flex;
   align-items: center;
@@ -19,14 +21,18 @@ nav > img{
   width: 2em;
 }
 
+/* Entry */
 .entry{
   display: flex;
+  justify-content: center;
   gap: 1em;
   margin: 2em;
 }
 
 .image-container{
   width: 25vw;
+  min-width: 130px;
+  max-width: 400px;
   overflow: hidden;
   height: 25vh;
   border-radius: .3em;
@@ -43,4 +49,26 @@ nav > img{
   margin-right: .7em;
   font-weight: 700;
   font-size: 1.2em;
+}
+
+.entry--details > h2{
+  margin-top: .3em;
+  margin-bottom: 1em;
+}
+
+.dates{
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+.description{
+  max-width: 500px;
+}
+
+/* Footer */
+footer{
+  background-color: #F55A5A;
+  color: white;
+  text-align: center;
+  padding: 1em;
 }
