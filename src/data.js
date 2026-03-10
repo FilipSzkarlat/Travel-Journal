@@ -20,7 +20,7 @@ export default [
         title: "Sydney Opera House",
         country: "Australia",
         googleMapsLink: "https://maps.app.goo.gl/Zr17SCrsJeCEKMd36",
-        dates: "27 May, 2021 - 8 Jun, 2021",
+        dates: "27 may, 2021 - 8 june, 2021",
         text: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings."
     },
     {

@@ -1,7 +1,7 @@
 import { HiMapPin } from "react-icons/hi2";
 
 export default function Entry(props) {
-    console.log(props)
+    const dates = props.dates.split(" - ").map( date => new Date(date) );
     return (
         <div className="entry">
             <div className='image-container'>
@@ -14,7 +14,7 @@ export default function Entry(props) {
                     View on Google Maps
                 </a>
                 <h2>{props.title}</h2>
-                <p className="dates">{props.dates}</p>
+                <p className="dates">{dates[0].toLocaleDateString()} - {dates[1].toLocaleDateString()}</p>
                 <p className="description">{props.text}</p>
             </div>
          </div>
