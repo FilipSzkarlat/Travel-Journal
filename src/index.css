@@ -107,3 +107,20 @@ footer > a{
   transform: scale(1.2);
   transition: ease-in-out .2s;
 }
+
+@media (max-width: 500px){
+  .entry{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container{
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .entry--details{
+    text-align: center;
+    width: 90%;
+  }
+}
