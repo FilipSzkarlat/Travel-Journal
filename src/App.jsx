@@ -29,4 +29,5 @@ export default function App() {
 }
 
 // Backlog of edits:
-// - customize entries
+// - add more entries
+// - set the web icon
